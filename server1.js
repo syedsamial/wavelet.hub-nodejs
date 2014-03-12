@@ -48,12 +48,6 @@ var JSONObject = {
 		method: 'GET'
 	};
 */
-var options = {
-		host: 'cloud.wavelet.biz',
-		port: '80',
-		path: '/demo/ws/api/itemService',
-		method: 'GET'
-	};
 
 
 my_http.createServer(function(request,response){
