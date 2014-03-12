@@ -1,4 +1,13 @@
-all change
+
+var sys = require("sys"),
+	my_http = require("http"),
+	net = require("net"),
+	mongoose = require('mongoose'),
+	socket = net.Socket();
+	
+	mongoose.connect('mongodb://localhost/test');
+	
+
 
 var data = JSON.stringify({
     "userName": "something",
@@ -34,12 +43,6 @@ var JSONObject = {
 		method: 'GET'
 	};
 */
-var options = {
-		host: 'cloud.wavelet.biz',
-		port: '80',
-		path: '/demo/ws/api/itemService',
-		method: 'GET'
-	};
 
 
 my_http.createServer(function(request,response){

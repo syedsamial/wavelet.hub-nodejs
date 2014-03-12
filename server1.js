@@ -1,4 +1,4 @@
-
+all change
 var sys = require("sys"),
 	my_http = require("http"),
 	net = require("net"),
@@ -7,12 +7,7 @@ var sys = require("sys"),
 	
 	mongoose.connect('mongodb://localhost/test');
 	
-var username = "Sami",
-	password = "123465",
-	queryObject = "queryObject",
-	urlparameter = "userName=" + //URLEncoder.encode(userName,"UTF-8")+
-				   "&password=" + //URLEncoder.encode(password,"UTF-8")+ "" + 
-				   "&queryObject=";// + URLEncoder.encode(queryObject,"UTF-8");
+
 
 var data = JSON.stringify({
     "userName": "something",
