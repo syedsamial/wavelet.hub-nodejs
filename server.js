@@ -1,4 +1,4 @@
-all change
+all change abar dellete
 
 var data = JSON.stringify({
     "userName": "something",
