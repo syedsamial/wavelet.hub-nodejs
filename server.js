@@ -1,7 +1,5 @@
 
-var data = JSON.stringify({
-    "userName": "something",
-    "password": "something"
+
 });
 
 var JSONObject = {

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-all change abar dellete
-=======
->>>>>>> 208473a6659265a0c9bd69b3ed6e67491e3b305a
 
 var data = JSON.stringify({
     "userName": "something",
